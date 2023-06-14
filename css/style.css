@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,700;1,900&display=swap');
+*,*::after,*::before{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.mainlogo{
+    height:40px;
+    width:40px;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    line-height:35px;
+}
+.container{
+    max-width:1140px;
+    width:100%;
+    margin:0 auto;
+    padding:0 24px;
+}
+/*NAVBAR*/
+.navbar{
+
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:24px 0;
+    
+}
+.navbar .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu{
+    display:flex;
+    gap:24px;
+}
+
+ .navbar-design{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size:30px;
+    letter-spacing:9px;
+}
+.navbar-menu .navbar-link{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.navbar-menu .navbar-link:hover{
+    color:rgb(216, 20, 20);
+}
+/***************************HERO SECTION PART*************/
+.hero{
+    background-image:url("../06.jpg");
+    min-height:100vh;  
+    background-size:cover;
+    background-position: center;
+    display:grid;
+    align-items:center;
+    color:white;
+
+}
+.container-content{
+    max-width: 600px;
+}
+.container-content h1{
+    font-size:clamp(44px,6vw,72px);
+    line-height:1.2;
+    font-weight:900;
+    font-style:italic;
+}
+.container-content p{
+    border-left:4px solid rgb(224, 45, 45);
+    padding-left:24px;
+    margin:32px 0;
+
+}
+.btn{
+    display:inline-block;
+    padding:10px 24px;
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:700;
+    font-style:italic;
+    background-color: rgb(224, 45, 45);
+    margin-top:12px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:rgb(224, 45, 45);
+    
+}
